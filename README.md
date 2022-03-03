@@ -2,7 +2,7 @@
 
 ## Overview
 NcmbUnityTwitterPlugin is a plugin which support NcmbUnity's signin with Twitter on Android and iOS.
-This plugin using assets from [NcmbUnityAndroidTwitterPlugin](https://github.com/vfa-tamhh/NcmbUnityAndroidTwitterPlugin) for Android and  [STTwitter](https://github.com/vfa-tamhh/STTwitter) for iOS.
+This plugin using assets from [NcmbUnityAndroidTwitterPlugin](https://github.com/vfa-tamhh/NcmbUnityAndroidTwitterPlugin) for Android and [STTwitter](https://github.com/vfa-tamhh/STTwitter) for iOS.
 
 * Note: This plugin is create base on NCMB Unity version 4.4.1
 
@@ -68,6 +68,13 @@ private class CallbackTwitter : INCMBTwitterCallback
 }
 
 ```
+
+## For Developer
+
+If you want to change the assets, please follow step:
+
+- For Anroid: Please change your logic at [NcmbUnityAndroidTwitterPlugin](https://github.com/vfa-tamhh/NcmbUnityAndroidTwitterPlugin) after that replace the `arr` file in this project.
+- For iOS: Please change your logic at [STTwitter](https://github.com/vfa-tamhh/STTwitter) and replace `STTwitter` assets in this project.
 
 ## License
 
