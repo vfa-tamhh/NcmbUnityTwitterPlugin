@@ -8,12 +8,26 @@ This plugin using assets from [NcmbUnityAndroidTwitterPlugin](https://github.com
 
 ## Plugin installation
 
-1. Create new project by Unity.
-2. Import NCMB libs. See the [NCMB Unity Quick Start](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_unity.html) for more details.
-3. Please open the release page of Github from the link below and download NcmbUnityTwitterPlugin.x.x.x.zip (x is the version number) [Github release page](https://github.com/vfa-tamhh/NcmbUnityTwitterPlugin/releases)
+There are two options available to install this plugin. Either using the Unity Package Manager, or the traditional `.unitypackage` file.
+
+### Unity Package Manager
+
+Install via Git URL. Available starting from Unity 2018.3.
+
+Just add this line to the `Packages/manifest.json` file of your Unity Project:
+
+```
+"dependencies": {
+    "com.nifcloud.mbaas.unity.twitter": "https://github.com/NIFCLOUD-mbaas/NcmbUnityTwitterPlugin.git?path=/ncmb_unity_twitter_plugin/Assets"
+}
+```
+
+### Unity Package File
+
+- Please open the release page of Github from the link below and download NcmbUnityTwitterPlugin.x.x.x.zip (x is the version number) [Github release page](https://github.com/vfa-tamhh/NcmbUnityTwitterPlugin/releases)
 <img src="images/img_0001.png" width = "640" />
 
-4. Unzip the zip file and Double-click "NcmbUnityTwitterPlugin.unitypackage" in the folder to import.
+- Unzip the zip file and Double-click "NcmbUnityTwitterPlugin.unitypackage" in the folder to import.
 <img src="images/img_0002.png" width = "640" />
 
 <img src="images/img_0003.png" width = "640" />
