@@ -14,6 +14,8 @@ There are two options available to install this plugin. Either using the Unity P
 
 Install via Git URL. Available starting from Unity 2018.3.
 
+Just add this line to the `Packages/manifest.json` file of your Unity Project:
+
 ```
 "dependencies": {
     "com.nifcloud.mbaas.unity.twitter": "https://github.com/NIFCLOUD-mbaas/NcmbUnityTwitterPlugin.git?path=/ncmb_unity_twitter_plugin/Assets"
